@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --color-text: rgb(247, 242, 242);
+    --color-yellow: rgb(228, 228, 0);
+    --color-black: black;
+    --color-back: rgb(14, 14, 70);
+    --color-hover: hwb(261 20% 35%);
+    --color-send: rgb(240, 105, 127);
+    --color-test: rgb(224, 224, 224);
+}
+.p1{
+    font-size: 20px;
+    line-height: 27px;
+}
+.p2{
+    font-size: 28px;
+}
+.p3{
+    font-size: 35px;
+}
+.p4{
+    font-size: 45px;
+}
+/* HEADER SECTION */
+header{
+    background-color: var(--color-back);
+}
+header .yellow{
+    color: var(--color-yellow);
+}
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    justify-content: end;
+    padding-right: 74px;
+    padding-top: 20px;
+}
+header nav .dataweb{
+    color: var(--color-text);
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-right: 480px;
+    font-size: 30px;
+}
+header ul li{
+    font-size: 20px;
+}
+header ul a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+header ul li a:hover{
+    color: var(--color-yellow);
+    transition: 1s;
+}
+header .div1{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+    background-color: var(--color-back);
+    color: var(--color-text);
+    line-height: 20px;
+}
+header .div1 h1{
+    font-size: 60px;
+    line-height: 80px;
+    font-family: inherit;
+    margin-top: -5px;
+}
+header .div1 button{
+    background-color: var(--color-text);
+    color: var(--color-back);
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: none;
+    margin-top: 29px;
+    font-size: 17px;
+}
+.div1 button:hover{
+    background-color: var(--color-black);
+    color: var(--color-text);
+    transition: 1s;
+}
+header .div1 img{
+    width: 1300px;
+    height: 500px;
+    max-width: 100%;
+}
+/* MAIN SECTION */
+main .div2{
+    color: var(--color-back);
+    text-align: center;
+}
+main .p1{
+    max-width: 80%;
+    padding-left: 130px;
+}
+main .div2 button{
+    background-color: var(--color-black);
+    color: var(--color-text);
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: none;
+    margin-top: 29px;
+    font-size: 17px;
+}
+.div2 button:hover{
+    background-color: var(--color-back);
+    transition: 1s;
+}
+main .div3{
+    background-color: var(--color-back);
+    color: var(--color-text);
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+.div3 .main{
+    line-height: 5px;
+}
+.div3 .twodiv{
+    padding-left: 80px;
+}
+.div3 .twodiv .p1{
+    padding-left: 30px;
+}
+.div3 .first3, .second3{
+    display: flex;
+    gap: 20px;
+}
+.div3 .second3{
+    padding-top: 20px;
+}
+.div3 img{
+    background-color: var(--color-text);
+    padding: 25px;
+    border-radius: 60px;
+}
+.div3 .ldiv{
+    border: 2px solid var(--color-text);
+    border-radius: 20px;
+    width: 350px;
+    height: 300px;
+    padding-top: 39px;
+    line-height: 20px;
+}
+.div3 .ldiv:hover{
+    background-color: var(--color-hover);
+    transition: 2s;
+}
+.div3 .test{
+    display: inline-block;
+    text-align: center;
+    width: 310px;
+    height: 330px;
+}
+main .div3 button{
+    background-color: var(--color-text);
+    color: var(--color-back);
+    padding: 48px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: none;
+    margin-top: 39px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+.div3 button:hover{
+    background-color: var(--color-hover);
+    color: var(--color-text);
+    transition: 0.4s;
+}
+.div4{
+    text-align: center;
+    color: var(--color-black);
+    padding-bottom: 40px;
+}
+.div4 .p4{
+    color: var(--color-back);
+}
+.div4 .main{
+    line-height: 3px;
+}
+.div4 .why{
+    display: inline-flex;
+}
+.div4 .why1{
+    width: 370px;
+    height: 440px;
+    line-height: 0px;
+    padding: 20px 10px 20px 10px;
+}
+.div4 .why1 .p1{
+    display: inline-block;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-top: 3px;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 250px;
+}
+.div4 .why0{
+    border-radius: 30px;
+    box-shadow: 5px 3px 5px 3px var(--color-test);
+    display: inline-block;
+    padding-top: 35px;
+}
+.div4 .why0:hover{
+    width: 360px;
+    height: 420px;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.div4 .readmore{
+    display: flex;
+    gap: 250px;
+    margin-left: 170px;
+}
+.div4 .readmore button{
+    background-color: var(--color-black);
+    color: var(--color-text);
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: none;
+    margin-top: 29px;
+    font-size: 17px;
+}
+.div4 button:hover{
+    background-color: var(--color-hover);
+    transition: 0.5s;
+}
+.div4 .read1{
+    text-align: left;
+}
+.div4 .read2{
+    text-align: center;
+}
+.div4 .read3{
+    text-align: right;
+}
+.div5{
+    z-index: 2;
+    position: absolute;
+    top: 524%;
+    margin-left: 28.5%;
+}
+.div5 form{
+    text-align: center;
+    background-color: var(--color-back);
+    width: 500px;
+    height: 450px;
+    border-radius: 30px;
+    padding: 25px;
+    padding-bottom: 1px;
+    padding-top: 50px;
+}
+.div5 form input{
+    padding: 10px;
+    width: 440px;
+    height: 35px;
+    border-radius: 15px;
+    font-size: 20px;
+    border-style: none;
+}
+.div5 form .textarea{
+    width: 440px !important;
+    height: 100px !important;
+}
+.div5 form .send{
+    width: 160px;
+    height: 50px;
+    color: var(--color-send);
+    background-color: var(--color-text);
+    border-radius: 60px;
+    font-size: 18px !important;
+}
+/* FOOTER SECTION */
+.div6{
+    position: relative;
+    background-color: var(--color-back);
+    color: var(--color-text);
+    padding: 60px;
+    padding-top: 309px;
+    text-align: center;
+    line-height: 5px;
+    margin-top: 205px;
+}
+.div7{
+    text-align: center;
+    font-size: 22px;
+}
